@@ -20,6 +20,9 @@ import org.json.simple.JSONObject;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+/**
+ * API for accessing mediatri patient information
+ */
 public class PatientResource extends MediatriClientBase {
 
   PatientResource(MediatriRestClient c) {

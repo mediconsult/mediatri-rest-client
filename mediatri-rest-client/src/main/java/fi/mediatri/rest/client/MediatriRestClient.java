@@ -29,6 +29,16 @@ import fi.mediconsult.medicloud.coreclient.exception.ClientException;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+/**
+ * Main class for mediatri rest client.<br/>
+ * Simple usage guide:<br/>
+ * <pre>
+ * MediatriRestClient client = new MediatriRestClient("https://mediatri-rest-accesspoint");
+ * AuthenticationDto dto = client.authenticate("username", "password");
+ * client.setRole(5,10);
+ * client.getPatientAPI().getPatientList();
+ * </pre>
+ */
 public class MediatriRestClient extends MediatriClientBase {
 
   private final Log log = LogFactory.getLog(MethodHandles.lookup().lookupClass());
