@@ -9,6 +9,7 @@
 mediatri-rest-client depends on jaxrs2 api and json-simple-1.1.
 
 ## Roadmap
+  - deploy artifact to maven-central
   - Change API to returned Java POJO's instead of JSONOBjects.  (Our used Java POJO's cannot be opensourced yet)
      - Use jackson2 for unmarshalling
   - Provide simple dummy server for developent. Returning fixed patients etc.
